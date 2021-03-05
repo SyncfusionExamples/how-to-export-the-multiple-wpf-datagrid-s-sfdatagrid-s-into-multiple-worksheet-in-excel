@@ -4,8 +4,7 @@
 
 This sample illustrates how to export the data from multiple SfDataGrid's to different worksheets in a same excel workbook.
 
-In SfDataGrid, you can export the data to Excel by using the ExportToExcel method. 
-You can also export the data from multiple SfDataGrid to different worksheets in a same workbook by passing the worksheet to which the data need to be exported as a parameter for the ExportToExcel method.
+You can export the data to Excel by using the `ExportToExcel` method in [WPF DataGrid](https://www.syncfusion.com/wpf-ui-controls/datagrid) (SfDataGrid). You can also export the data from multiple SfDataGrid to different worksheets in a same workbook by passing the worksheet to which the data need to be exported as a parameter for the `ExportToExcel` method.
 
 ```c#
 using Syncfusion.UI.Xaml.Grid.Converter;
