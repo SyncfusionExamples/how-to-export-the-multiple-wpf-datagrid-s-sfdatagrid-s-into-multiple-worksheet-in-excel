@@ -38,5 +38,7 @@ private static void OnExecuteExportToExcel(object sender, ExecutedRoutedEventArg
 
 ![Excel_Image](Excel_Image.png)
 
+KB article - [How to export the multiple WPF DataGrid's (SfDataGrid's) into multiple worksheet in Excel?](https://www.syncfusion.com/kb/11725/how-to-export-the-multiple-wpf-datagrids-sfdatagrids-into-multiple-worksheet-in-excel)
+
 ## Requirements to run the demo
 Visual Studio 2015 and above versions
