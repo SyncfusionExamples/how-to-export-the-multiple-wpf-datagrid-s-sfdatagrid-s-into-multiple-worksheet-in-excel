@@ -1,10 +1,8 @@
-# How to export the multiple WPF DataGrid's (SfDataGrid's) into multiple worksheet in Excel?
+# How to Export the Multiple WPF DataGrid into Multiple Worksheet in Excel?
 
-## About the sample
+This sample illustrates how to export the data from multiple [WPF DataGrid](https://www.syncfusion.com/wpf-controls/datagrid) (SfDataGrid) to different worksheets in a same excel workbook.
 
-This sample illustrates how to export the data from multiple SfDataGrid's to different worksheets in a same excel workbook.
-
-You can export the data to Excel by using the `ExportToExcel` method in [WPF DataGrid](https://www.syncfusion.com/wpf-ui-controls/datagrid) (SfDataGrid). You can also export the data from multiple SfDataGrid to different worksheets in a same workbook by passing the worksheet to which the data need to be exported as a parameter for the `ExportToExcel` method.
+You can export the data to Excel by using the `ExportToExcel` method in DataGrid. You can also export the data from multiple DataGrid to different worksheets in a same workbook by passing the worksheet to which the data need to be exported as a parameter for the `ExportToExcel` method.
 
 ```c#
 using Syncfusion.UI.Xaml.Grid.Converter;
@@ -36,9 +34,4 @@ private static void OnExecuteExportToExcel(object sender, ExecutedRoutedEventArg
 
 ```
 
-![Excel_Image](Excel_Image.png)
-
-KB article - [How to export the multiple WPF DataGrid's (SfDataGrid's) into multiple worksheet in Excel?](https://www.syncfusion.com/kb/11725/how-to-export-the-multiple-wpf-datagrids-sfdatagrids-into-multiple-worksheet-in-excel)
-
-## Requirements to run the demo
-Visual Studio 2015 and above versions
+![Exporting multiple DataGrid to multiple worksheets](ExportDataGridToMultipleWorksheet.png)
